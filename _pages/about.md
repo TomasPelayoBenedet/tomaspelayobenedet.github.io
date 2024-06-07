@@ -10,8 +10,8 @@ profile:
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>University of Zaragoza</p>
-    <p>tpelayo [at] unizar [dot] es</p>
     <p>Zaragoza, Spain</p>
+    <p>tpelayo [at] unizar [dot] es</p>
     
 
 news: false # includes a list of news items
