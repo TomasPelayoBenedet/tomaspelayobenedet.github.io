@@ -6,7 +6,7 @@
     "email": "tpelayo@unizar.es",
     "phone": "(034) 609-371-206",
     "url": "https://tomaspelayobenedet.github.io/",
-    "summary": "A Spanish-born engineer and musician"
+    "summary": "A Spanish-born engineer and musician, just a simple man, trying to make his way in the universe"
   },
   "education": [
     {
@@ -17,8 +17,7 @@
       "studyType": "PhD",
       "startDate": "2024-05-01",
       "endDate": "2027-05-01",
-      "score": "",
-      "courses": [""]
+      "score": ""
     },
     {
       "institution": "University of León, León, Spain",
@@ -28,8 +27,7 @@
       "studyType": "PhD",
       "startDate": "2022-09-01",
       "endDate": "2023-09-01",
-      "score": "8.57",
-      "courses": [""]
+      "score": "8.57"
     },
     {
       "institution": "University of Zaragoza, Zaragoza, Spain",
@@ -51,7 +49,7 @@
       "startDate": "2015-09-01",
       "endDate": "2022-06-01",
       "score": "",
-      "courses": [""]
+      "courses": ["Specialized in Basson"]
     },
     {
       "institution": "Conservatorio Profesional de Música de Zaragoza, Zaragoza, Switzerland",
@@ -62,27 +60,25 @@
       "startDate": "2011-09-01",
       "endDate": "2015-06-01",
       "score": "",
-      "courses": [""]
+      "courses": ["Specialized in Basson"]
     }
   ],
   "work": [
     {
       "name": "DisCo, University of Zaragoza",
-      "position": "N3 Researcher Student",
+      "position": "N3 Researcher",
       "url": "https://webdiis.unizar.es/DISCO",
       "startDate": "2024-05-07",
       "endDate": "present",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [""]
+      "summary": "Research on DGAs and function discovery"
     },
     {
       "name": "Teltronic SAU",
-      "position": "Professor of Theoretical Physics",
+      "position": "Cybersecurity Engineer",
       "url": "https://www.teltronic.es",
       "startDate": "2023-05-01",
       "endDate": "2024-05-06",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [""]
+      "summary": "Cybsersecurity applied to LTE (4G)"
     },
     {
       "name": "Teltronic SAU",
@@ -90,14 +86,13 @@
       "url": "hhttps://www.teltronic.es",
       "startDate": "2022-10-01",
       "endDate": "2023-04-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [""]
+      "summary": "Risk analysis and vulnerability management"
     }
   ],
   "certificates": [
     {
-      "name": "B2 Cambridge English: FIRST (FCE)",
-      "date": "2023-12-01",
+      "name": "B2 Cambridge English: FCE",
+      "date": "2023-12",
       "issuer": "Cambridge University English",
       "url": "https://www.cambridgeenglish.org",
       "icon": "fa-solid fa-tag"
@@ -105,11 +100,11 @@
   ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
+      "name": "Design and Implementation of a Compiler for Simulation of Large-Scale Models",
+      "publisher": "Springer Nature Switzerland",
+      "releaseDate": "2023",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-29315-3_16",
+      "summary": "As systems become increasingly sophisticated, their state spaces become larger and the use of analysis and simulation techniques is impossible by a single-processor machine. Distributed simulation seems the natural way to afford this problem. However, the main bottleneck of distributed simulation is the management, compilation and deployment of large scale models. This paper presents the experimentation results of a compiler of large scale Petri-net based models."
     }
   ],
   "skills": [
@@ -129,13 +124,13 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Spanish",
       "fluency": "Native speaker",
       "icon": ""
     },
     {
       "language": "English",
-      "fluency": "Fluent",
+      "fluency": "B2+",
       "icon": ""
     }
   ],
