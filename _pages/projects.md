@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Projects Tomas has worked on or is currently working on.
 nav: true
 nav_order: 4
 display_categories: [work, fun]
