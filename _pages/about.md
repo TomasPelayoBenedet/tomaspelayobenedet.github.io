@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Tomas is a PhD student at the <a href='https://www.unizar.es'>University of Zaragoza</a> under the supervision of <a href='https://webdiis.unizar.es/~ricardo/'>Ricardo J. Rodriguez</a> in the research team <a href='https://www.reversea.me'>reversea.me</a>. His research is focused on malware detection, to be more specific on the detection of DGAs (Domain Generation Algorithms) and the discovery of functions in binaries, always open to collaborations with other universities or companies.
+Tomas is a PhD student at the <a href='https://www.unizar.es'>University of Zaragoza</a> under the supervision of <a href='https://webdiis.unizar.es/~ricardo/'>Ricardo J. Rodriguez</a> in the research team <a href='https://www.reversea.me'>reversea.me</a>. His research is focused on malware detection, to be more specific on the detection of DGAs (Domain Generation Algorithms) and function identification in binaries, always open to collaborations with other universities or companies.
 
 Before dedicating himself to research, he worked for almost two years as a cybersecurity engineer at <a href='https://www.teltronic.es/en/'>Teltronic SAU</a>. Prior to all this, he obtained his bachelor's degree in computer science engineering at the <a href='https://www.unizar.es'>University of Zaragoza</a> and his master's degree in Cybersecurity Research at the <a href='https://www.unileon.es'>University of León</a>.
 
