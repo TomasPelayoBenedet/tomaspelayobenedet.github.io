@@ -7,9 +7,8 @@ nav: true
 nav_order: 3
 ---
 
-<!-- _pages/publications.md -->
-<div class="publications">
+## DIMVA'24: Ensuring Reproducibility in AGD Detection: A Model Comparison Framework
 
-{% bibliography %}
+![DIMVA'24](assets/posters/jpg/dimva24.jpg)
 
-</div>
+[Download Full Size](assets/posters/pdf/dimva24.pdf)
