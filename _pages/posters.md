@@ -9,9 +9,6 @@ nav_order: 5
 
 ## DIMVA'24: Ensuring Reproducibility in AGD Detection: A Model Comparison Framework
 
-<div style="text-align: center;">
-  <img src="assets/posters/jpg/dimva24.jpg" alt="Poster 1" style="width:70%; border:1px solid #ddd; padding:5px;">
-</div>
-
+{% include figure.liquid loading="eager" path="assets/posters/jpg/dimva24.jpg" class="img-fluid rounded z-depth-1" %}
 
 [Download Full Size](assets/posters/pdf/dimva24.pdf)
