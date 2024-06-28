@@ -4,7 +4,7 @@ permalink: /repositories/
 title: Repositories
 description: GitHub user and repositories where Tomas has worked on or is currently working on.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 ## GitHub users
