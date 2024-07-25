@@ -20,7 +20,6 @@ nav_order: 4
     </div>
   </div>
 </div>
-
 <style>
   .poster-section {
     border-bottom: 2px solid #eee;
@@ -48,10 +47,7 @@ nav_order: 4
     transform: scale(3);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     z-index: 10;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(3);
+    position: relative;
   }
   .poster-details {
     flex: 2;
