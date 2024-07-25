@@ -20,6 +20,7 @@ nav_order: 4
     </div>
   </div>
 </div>
+
 <style>
   .poster-section {
     border-bottom: 2px solid #eee;
@@ -35,7 +36,6 @@ nav_order: 4
     max-width: 30%;
     padding-right: 20px;
     position: relative;
-    overflow: hidden;
   }
   .poster-image img {
     width: 100%;
@@ -44,10 +44,9 @@ nav_order: 4
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   .poster-image img:hover {
-    transform: scale(3);
+    transform: scale(2);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     z-index: 10;
-    position: relative;
   }
   .poster-details {
     flex: 2;
