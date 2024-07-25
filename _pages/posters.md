@@ -33,9 +33,10 @@ nav_order: 4
   }
   .poster-image {
     flex: 1;
-    max-width: 25%;
+    max-width: 30%;
     padding-right: 20px;
     position: relative;
+    overflow: hidden;
   }
   .poster-image img {
     width: 100%;
@@ -44,9 +45,13 @@ nav_order: 4
     transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
   .poster-image img:hover {
-    transform: scale(2);
+    transform: scale(3);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
     z-index: 10;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(3);
   }
   .poster-details {
     flex: 2;
