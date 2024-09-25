@@ -14,7 +14,7 @@
       "location": "Zaragoza, Spain",
       "url": "https://www.unizar.es/",
       "area": "Cybersecurity",
-      "studyType": "PhD",
+      "studyType": "Ph.D.",
       "startDate": "2024-05-01",
       "endDate": "2027-05-01",
       "score": ""
@@ -66,7 +66,7 @@
   "work": [
     {
       "name": "DisCo, University of Zaragoza",
-      "position": "N3 Researcher",
+      "position": "Initiated Researcher (N3)",
       "url": "https://webdiis.unizar.es/DISCO",
       "startDate": "2024-05-07",
       "endDate": "present",
