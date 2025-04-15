@@ -6,7 +6,7 @@
     "email": "tpelayo@unizar.es",
     "phone": "(034) 601151194",
     "url": "https://tomaspelayobenedet.github.io/",
-    "summary": "A Spanish-born engineer and musician, just a simple man, trying to make his way in the universe"
+    "summary": "per aspera ad astra, but always remember that memento mori"
   },
   "education": [
     {
@@ -65,12 +65,20 @@
   ],
   "work": [
     {
-      "name": "DisCo, University of Zaragoza",
+      "name": "Software Security, Ruhr University Bochum",
+      "position": "Visitor Researcher",
+      "url": "https://softsec.eu/",
+      "startDate": "2025-04-01",
+      "endDate": "2025-07-31",
+      "summary": "Research on Leveraging LLMs for Automated Disassembly"
+    },
+    {
+      "name": "RME-DisCo, University of Zaragoza",
       "position": "Initiated Researcher (N3)",
-      "url": "https://webdiis.unizar.es/DISCO",
+      "url": "https://reversea.me/",
       "startDate": "2024-05-07",
       "endDate": "present",
-      "summary": "Research on DGAs and function discovery"
+      "summary": "Research on AI Applications in Cybersecurity"
     },
     {
       "name": "Teltronic SAU",
