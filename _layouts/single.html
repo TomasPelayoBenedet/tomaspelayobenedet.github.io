@@ -51,11 +51,11 @@ layout: default
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.paperurl and page.slidesurl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
-        {% elsif and page.paperurl and page.posterurl and page.bibtexurl %}
+        {% elsif page.paperurl and page.posterurl and page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.posterurl }}">Download Poster</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
-        {% elsif and page.paperurl and page.posterurl %}
+        {% elsif page.paperurl and page.posterurl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.posterurl }}">Download Poster</a></p>
-        {% elsif and page.paperurl and page.bibtexurl %}
+        {% elsif page.paperurl and page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.paperurl %}
           <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a></p>
