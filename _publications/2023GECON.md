@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 permalink: /publication/2023GECON
 date: 2023-03-31
-venue: 'Economics of Grids, Clouds, Systems, and Services.'
+venue: 'Economics of Grids, Clouds, Systems, and Services'
 paperurl: 'https://doi.org/10.1007/978-3-031-29315-3_16'
 bibtexurl: 'https://tomaspelayobenedet.github.io/files/2023GECON/2023gecon.bib'
 ---
