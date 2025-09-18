@@ -11,35 +11,50 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, University of Zaragoza, 2024-Present
+  * Research focus: AI applications in cybersecurity
+* M.S. in Research in Cybersecurity, University of León, 2022-2023
+  * Thesis: Detection of Algorithmically Generated Domains (AGDs)
+* B.S. in Computer Science, University of Zaragoza, 2018-2022
+  * Graduated with honors in Artificial Intelligence
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* May 2024-Present: Ph.D. Researcher
+  * University of Zaragoza, Zaragoza, Spain
+  * Novel research on detection of algorithmically generated domains using LLMs
+  * Designed and benchmarked deep learning architectures for AGD detection
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* April 2025-July 2025: Visiting Researcher
+  * Ruhr University Bochum, Bochum, Germany
+  * Exploring novel applications of LLMs for binary decompilation via intermediate representations
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* May 2023-May 2024: Cybersecurity Engineer
+  * Teltronic, Zaragoza, Spain
+  * Led cybersecurity strategy and compliance for LTE (4G) product line
+  * Implemented risk mitigation policies aligned with industry standards
+
+* October 2022-April 2023: Cybersecurity Intern
+  * Teltronic, Zaragoza, Spain
+  * Conducted vulnerability assessments and risk analysis for telecommunications systems
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * Python, C/C++, Java, Rust, Go
+  * JavaScript, SQL, R, Bash, Assembly
+* Machine Learning
+  * Deep Learning, NLP, Large Language Models (LLMs)
+  * TensorFlow, PyTorch
+* Cybersecurity
+  * Vulnerability Assessment, Risk Analysis
+  * Incident Response, Malware Detection
+* Tools & Technologies
+  * Git, Docker, Linux, LaTeX
+  * Wireshark, Nmap, Burp Suite, SIEM platforms, Binary Ninja
+* Languages
+  * Spanish (Native)
+  * English (B2+)
 
 Publications
 ======
@@ -58,7 +73,19 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Awards, Grants & Honors
 ======
-* Currently signed in to 43 different slack teams
+* "Ayudas para la cofinanciación de Contratos Puente de Investigación del I3A" (2025)
+
+Certifications & Additional Studies
+======
+* University Expert in Cyber Incident Management and Response – University of Zaragoza (2025)
+* Containment and Forensics Expert after a Cyber Incident – INCIBE & EICYC (2023)
+* B2 Cambridge English: First (FCE) – Cambridge University (2023)
+* Elementary and Professional Music Studies – Conservatorio Profesional de Música de Zaragoza (CPMZ) (2011-2022)
+  
+Leadership and Activities
+======
+* Principal Bassoon at City Council Band of Zaragoza (2024-Present)
+* First Team Rower at Os'Nabaters Rowing Club — Men's Eight (8+) (2024-Present)
