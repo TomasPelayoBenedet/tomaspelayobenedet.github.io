@@ -59,9 +59,11 @@ Skills
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
+    {% if post.category == "publications" or post.category == "conferences" %}
+      {% include archive-single.html %}
+    {% endif %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
