@@ -60,7 +60,15 @@ Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% if post.category == "publications" or post.category == "conferences" %}
-      {% include archive-single.html %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}</ul>
+
+Posters
+======
+  <ul>{% for post in site.publications reversed %}
+    {% if post.category == "posters" %}
+      {% include archive-single-cv.html %}
     {% endif %}
   {% endfor %}</ul>
 
