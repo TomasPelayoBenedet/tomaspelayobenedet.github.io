@@ -87,5 +87,5 @@ Certifications & Additional Studies
   
 Leadership and Activities
 ======
-* Principal Bassoon at City Council Band of Zaragoza (2024-Present)
+* First Bassoon at City Council Band of Zaragoza (2024-Present)
 * First Team Rower at Os'Nabaters Rowing Club — Men's Eight (8+) (2024-Present)
