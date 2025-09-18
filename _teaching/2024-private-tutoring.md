@@ -8,4 +8,4 @@ venue: "N/A"
 location: "Zaragoza, Spain"
 ---
 
-Private tutoring for Advanced Technical Education (<i>Grado Superior</i> in Spain) students about in SQL, Linux and programming
+Private tutoring for Advanced Technical Education students (<i>Grado Superior</i>) in SQL database management, Linux systems administration, and programming fundamentals
