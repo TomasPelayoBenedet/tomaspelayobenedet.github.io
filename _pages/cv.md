@@ -37,20 +37,6 @@ Work experience
 * October 2022-April 2023: Cybersecurity Intern
   * Teltronic, Zaragoza, Spain
   * Conducted vulnerability assessments and risk analysis for telecommunications systems
-  
-Skills
-======
-* Programming
-  * Python, C/C++, Java, Rust, Go, JavaScript, SQL, R, Bash, Assembly
-* Machine Learning
-  * Deep Learning, NLP, Large Language Models, TensorFlow, PyTorch
-* Cybersecurity
-  * Vulnerability Assessment, Risk Analysis, Incident Response, Malware Detection
-* Tools & Technologies
-  * Git, Docker, Linux, LaTeX, Wireshark, Nmap, Burp Suite, SIEM platforms, Binary Ninja
-* Languages
-  * Spanish (Native)
-  * English (B2+)
 
 Publications
 ======
@@ -89,3 +75,17 @@ Leadership and Activities
 ======
 * First Bassoon at City Council Band of Zaragoza (2024-Present)
 * First Team Rower at Os'Nabaters Rowing Club — Men's Eight (8+) (2024-Present)
+
+Skills
+======
+* Programming
+  * Python, C/C++, Java, Rust, Go, JavaScript, SQL, R, Bash, Assembly
+* Machine Learning
+  * Deep Learning, NLP, Large Language Models, TensorFlow, PyTorch
+* Cybersecurity
+  * Vulnerability Assessment, Risk Analysis, Incident Response, Malware Detection
+* Tools & Technologies
+  * Git, Docker, Linux, LaTeX, Wireshark, Nmap, Burp Suite, SIEM platforms, Binary Ninja
+* Languages
+  * Spanish (Native)
+  * English (B2+)
