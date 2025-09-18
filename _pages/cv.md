@@ -41,17 +41,13 @@ Work experience
 Skills
 ======
 * Programming
-  * Python, C/C++, Java, Rust, Go
-  * JavaScript, SQL, R, Bash, Assembly
+  * Python, C/C++, Java, Rust, Go, JavaScript, SQL, R, Bash, Assembly
 * Machine Learning
-  * Deep Learning, NLP, Large Language Models (LLMs)
-  * TensorFlow, PyTorch
+  * Deep Learning, NLP, Large Language Models, TensorFlow, PyTorch
 * Cybersecurity
-  * Vulnerability Assessment, Risk Analysis
-  * Incident Response, Malware Detection
+  * Vulnerability Assessment, Risk Analysis, Incident Response, Malware Detection
 * Tools & Technologies
-  * Git, Docker, Linux, LaTeX
-  * Wireshark, Nmap, Burp Suite, SIEM platforms, Binary Ninja
+  * Git, Docker, Linux, LaTeX, Wireshark, Nmap, Burp Suite, SIEM platforms, Binary Ninja
 * Languages
   * Spanish (Native)
   * English (B2+)
