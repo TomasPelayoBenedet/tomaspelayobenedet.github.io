@@ -7,12 +7,14 @@ redirect_from:
   - /about.html
 ---
 
-Tomas is a Ph.D. canditate at the [University of Zaragoza](https://www.unizar.es) under the supervision of [Ricardo J. Rodriguez](https://webdiis.unizar.es/~ricardo/) in the research team [reversea.me](https://www.reversea.me). His research research focuses on malware detection in networks using machine learning techniques such as neural networks and LLMs (e.g. ChatGPT, Claude, MistralAI...), always open to collaborations with other universities or companies.
+I'm a Ph.D. student at the [University of Zaragoza](https://www.unizar.es) working under the supervision of [Ricardo J. Rodriguez](https://webdiis.unizar.es/~ricardo/) with the [reversea.me](https://www.reversea.me) research team. My research focuses on AI applications in cybersecurity, specifically on detecting algorithmically generated domains (AGDs) using machine learning techniques and Large Language Models like ChatGPT, Claude, and MistralAI. I'm always open to collaborations with other universities and companies.
 
-Before dedicating himself to research, he worked for almost two years as a cybersecurity engineer at [Teltronic SAU](https://www.teltronic.es/en/). Prior to all this, he obtained his bachelor's degree in computer science engineering at the [University of Zaragoza](https://www.unizar.es) and his master's degree in Cybersecurity Research at the [University of León](https://www.unileon.es).
+During my doctoral studies, I completed a research visit at [Ruhr University Bochum](https://www.ruhr-uni-bochum.de/en) in Germany under the supervision of [Prof. Dr. Kevin Borgolte](https://kevin.borgolte.me/), where I explored novel applications of LLMs for binary decompilation via intermediate representations.
 
-Outside of his scientific life, he has studies in music ([CPMZ](https://www.cpmzaragoza.com/)), allowing him to play the bassoon and currently be a member of the [Zaragoza City Hall band](https://bandaclubsocialzaragoza.com/banda-de-musica/).
+Before pursuing research, I worked for almost two years at [Teltronic SAU](https://www.teltronic.es/en/) as a cybersecurity engineer, leading cybersecurity strategy and compliance for LTE product lines. I hold a bachelor's degree in Computer Science Engineering from the [University of Zaragoza](https://www.unizar.es) (graduated with honors in Artificial Intelligence) and a master's degree in Cybersecurity Research from the [University of León](https://www.unileon.es).
 
-Parallel to his academic life, he is a lover of the Pyrenees and sports. Any excuse is good for a bit of hiking on any trail the Pyrenees have to offer, weather permitting. Among the sports he is currently focusing on are running, bouldering and rowing, belonging to the rowing team [OsNabaters](https://www.facebook.com/p/Os-Nabaters-do-flumen-100071789451571/).
+Outside my academic work, I have a background in music from the [Conservatorio Profesional de Música de Zaragoza (CPMZ)](https://www.cpmzaragoza.com/), where I learned to play the bassoon. I currently serve as first bassoon for the [Zaragoza City Hall band](https://bandaclubsocialzaragoza.com/banda-de-musica/).
+
+I'm passionate about the Pyrenees and outdoor activities. When I'm not working, you'll often find me hiking mountain trails or engaging in sports like running, bouldering, and rowing. I row with the first team at [Os'Nabaters](https://www.facebook.com/p/Os-Nabaters-do-flumen-100071789451571/) rowing club in the Men's Eight.
 
 <i>Per aspera ad astra, but always remember that memento mori</i>
