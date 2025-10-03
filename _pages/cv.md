@@ -25,6 +25,11 @@ Work experience
   * Novel research on detection of algorithmically generated domains using LLMs
   * Designed and benchmarked deep learning architectures for AGD detection
 
+* Oct 2025-Present: Lecturer
+  * University of Zaragoza, Zaragoza, Spain
+  * Teaching practical sessions for undergraduate courses.
+  * Courses: Fundamentals of Computer Science (Electronic \& Automatic Engineering) and Information Systems (Computer Engineering).
+
 * April 2025-July 2025: Visiting Researcher
   * Ruhr University Bochum, Bochum, Germany
   * Exploring novel applications of LLMs for binary decompilation via intermediate representations
