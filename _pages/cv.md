@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <div style="text-align: right;">
-  <a href="{{ base_path }}/files/CV/tomaspelayobenedet.pdf" class="btn" target="_blank" style="display: inline-block; margin-bottom: 2em; text-decoration: none; border: 2px solid currentColor; background: transparent; color: inherit; padding: 10px 20px; border-radius: 6px; font-weight: bold;">
+  <a href="{{ base_path }}/files/CV/tomaspelayobenedet.pdf" target="_blank" style="display: inline-block; margin-bottom: 2em; text-decoration: none; border: 2px solid; padding: 10px 20px; border-radius: 6px; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
     <i class="fas fa-file-pdf"></i> Download CV (PDF)
   </a>
 </div>
