@@ -82,11 +82,6 @@ Publications
 * Pelayo-Benedet, T., Rodríguez, R. J., & Gañán, C. H. (2025). RAMPAGE: A Software Framework To Ensure Reproducibility in Algorithmically Generated Domains Detection. *Expert Systems with Applications*, 128629. [10.1016/j.eswa.2025.128629](https://doi.org/10.1016/j.eswa.2025.128629)
 * Pelayo, T., Arronategui, U., Bañares, J. Á., & Colom, J. M. (2022). Design and Implementation of a Compiler for Simulation of Large-Scale Models. In *International Conference on the Economics of Grids, Clouds, Systems, and Services* (pp. 158-162). Cham: Springer Nature Switzerland. [10.1007/978-3-031-29315-3_16](https://doi.org/10.1007/978-3-031-29315-3_16)
 
-Leadership and Activities
-======
-* First Bassoon at City Council Band of Zaragoza (2024-Present)
-* First Team Rower at Os'Nabaters Rowing Club — Men's Eight (8+) (2024-Present)
-
 Skills
 ======
 * Programming
