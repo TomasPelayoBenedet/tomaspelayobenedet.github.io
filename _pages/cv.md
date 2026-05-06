@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+<a href="{{ base_path }}/files/tomaspelayobenedet.pdf" class="btn btn--primary" target="_blank" style="display: inline-block; margin-bottom: 2em; text-decoration: none;">
+  <i class="fas fa-file-pdf"></i> Download CV (PDF)
+</a>
+
 Education
 ======
 * Ph.D in Computer Science, University of Zaragoza, 2024-Present
