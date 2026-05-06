@@ -15,32 +15,28 @@ redirect_from:
 
 Work experience
 ======
+University of Zaragoza, Zaragoza, Spain
 * May 2024-Present: Ph.D. Researcher
-  * University of Zaragoza, Zaragoza, Spain
   * Research on Algorithmically Generated Domains (AGD) detection using LLMs.
   * Designed and benchmarked deep learning architectures for AGD detection.
   * Research on the application of assisted LLMs to Reverse Engineering.
-
 * Oct 2025-May 2026: Lecturer
-  * University of Zaragoza, Zaragoza, Spain
   * Teaching practical sessions for undergraduate engineering courses.
 
+JnT Studios, Spain
 * Dec 2025-Present: Co-Founder
-  * JnT Studios, Spain
   * Lead both the planning and hands-on implementation of AI product.
   * Contribute developing core software features and infrastructure.
 
+Ruhr University Bochum, Bochum, Germany
 * April 2025-Jan 2026: Visiting Researcher (Remote collaboration since Aug 2025)
-  * Ruhr University Bochum, Bochum, Germany
   * Research on novel applications of LLMs for binary decompilation via intermediate representations.
 
+Teltronic, Zaragoza, Spain
 * May 2023-May 2024: Cybersecurity Engineer
-  * Teltronic, Zaragoza, Spain
   * Led cybersecurity strategy and compliance for LTE (4G) product line.
   * Implemented risk mitigation policies aligned with industry standards.
-
 * October 2022-April 2023: Cybersecurity Intern
-  * Teltronic, Zaragoza, Spain
   * Conducted vulnerability assessments and risk analysis for telecommunications systems.
 
 Education
