@@ -1,10 +1,10 @@
 ---
-title: "Lecturer Spring 2025"
+title: "Lecturer Spring 2026"
 collection: teaching
 type: "Undergraduate courses"
-permalink: /teaching/2025-spring-teaching
+permalink: /teaching/2026-spring-teaching
 venue: "University of Zaragoza, Department of Computer Science and Systems Engineering"
-date: 2025-02-01
+date: 2026-02-01
 location: "Zaragoza, Spain"
 ---
 
