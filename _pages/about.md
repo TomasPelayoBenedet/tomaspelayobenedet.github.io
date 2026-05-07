@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "T. Pelayo-Benedet"
+title: "Tomás Pelayo-Benedet"
 author_profile: true
 redirect_from: 
   - /about/

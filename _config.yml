@@ -25,11 +25,11 @@ author:
   avatar           : "profile_pic.jpeg"
   name             : "Tomás Pelayo-Benedet"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. Student"
-  location         : "Spain, Europe"
+  bio              : "PhD Candidate"
+  location         : "Zaragoza, Spain, Europe"
   employer         : "University of Zaragoza"
   uri              : # URL
-  email            : "tpelayo@unizar.es" 
+  email            : "tomaspelayobenedet@gmail.com" 
 
   # Academic websites
   academia         : # URL
