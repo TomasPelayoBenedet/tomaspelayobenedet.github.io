@@ -52,27 +52,28 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p style="font-size: smaller"><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.paperurl and post.slidesurl %}
-      <p style="font-size: smaller"><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.paperurl and post.posterurl and post.bibtexurl %}
-      <p style="font-size: smaller"><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.posterurl }}">Download Poster</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.paperurl and post.posterurl %}
-      <p style="font-size: smaller"><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.posterurl }}">Download Poster</a></p>
-    {% elsif post.paperurl and post.bibtexurl %}
-      <p style="font-size: smaller"><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.paperurl %}
-      <p style="font-size: smaller"><a href="{{ post.paperurl }}">Download Paper</a></p>
-    {% elsif post.slidesurl and post.bibtexurl %}
-      <p style="font-size: smaller"><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.paperurl and post.bibtexurl %}
-      <p style="font-size: smaller"><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% elsif post.slidesurl %}
-      <p style="font-size: smaller"><a href="{{ post.slidesurl }}">Download Slides</a></p>
-    {% elsif post.bibtexurl %}
-      <p style="font-size: smaller"><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
-    {% endif %}
+    <div style="margin-top: 1em; display: flex; gap: 1em; flex-wrap: wrap;">
+      {% if post.paperurl %}
+        <a href="{{ post.paperurl }}" target="_blank" style="text-decoration: none; border: 2px solid; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          <i class="fas fa-file-pdf"></i> Download Paper
+        </a>
+      {% endif %}
+      {% if post.slidesurl %}
+        <a href="{{ post.slidesurl }}" target="_blank" style="text-decoration: none; border: 2px solid; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          <i class="fas fa-file-powerpoint"></i> Download Slides
+        </a>
+      {% endif %}
+      {% if post.posterurl %}
+        <a href="{{ post.posterurl }}" target="_blank" style="text-decoration: none; border: 2px solid; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          <i class="fas fa-image"></i> Download Poster
+        </a>
+      {% endif %}
+      {% if post.bibtexurl %}
+        <a href="{{ post.bibtexurl }}" target="_blank" style="text-decoration: none; border: 2px solid; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          <i class="fas fa-file-code"></i> Download BibTeX
+        </a>
+      {% endif %}
+    </div>
 
   </article>
 </div>
