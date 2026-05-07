@@ -1,0 +1,54 @@
+---
+layout: default
+title: "BibTeX Citation"
+permalink: /bibtex-viewer/
+---
+
+<div style="margin-top: 2em;">
+  <pre id="bibtex-content" style="background-color: inherit; padding: 1.5em; border-radius: 8px; border: 1px solid currentColor; overflow-x: auto; white-space: pre-wrap; font-family: monospace; font-size: 0.9em; opacity: 0.8;">Loading...</pre>
+  
+  <div style="margin-top: 1.5em; display: flex; gap: 1em; flex-wrap: wrap;">
+    <button onclick="copyBibtex()" style="text-decoration: none; border: 2px solid; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 0.9em; background: transparent; cursor: pointer; color: inherit; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <i class="fas fa-copy"></i> Copy Text
+    </button>
+    <a id="download-btn" href="#" download style="text-decoration: none; border: 2px solid; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 0.9em; color: inherit; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+      <i class="fas fa-download"></i> Download .bib
+    </a>
+  </div>
+</div>
+
+<script>
+  // Get the file URL from the query string ?file=...
+  const urlParams = new URLSearchParams(window.location.search);
+  const bibFile = urlParams.get('file');
+
+  if (bibFile) {
+    document.getElementById('download-btn').href = bibFile;
+    // Extract filename for the download attribute
+    const filename = bibFile.split('/').pop() || 'citation.bib';
+    document.getElementById('download-btn').download = filename;
+
+    fetch(bibFile)
+      .then(response => {
+        if (!response.ok) throw new Error("File not found");
+        return response.text();
+      })
+      .then(text => {
+        document.getElementById('bibtex-content').innerText = text;
+      })
+      .catch(error => {
+        document.getElementById('bibtex-content').innerText = "Error loading BibTeX file: " + error.message;
+      });
+  } else {
+    document.getElementById('bibtex-content').innerText = "No BibTeX file specified in the URL.";
+  }
+
+  function copyBibtex() {
+    const text = document.getElementById('bibtex-content').innerText;
+    navigator.clipboard.writeText(text).then(() => {
+      alert("BibTeX copied to clipboard!");
+    }).catch(err => {
+      console.error('Could not copy text: ', err);
+    });
+  }
+</script>
