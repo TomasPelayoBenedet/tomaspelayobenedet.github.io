@@ -50,25 +50,67 @@ layout: default
         <div style="margin-top: 1em; display: flex; gap: 1em; flex-wrap: wrap;">
           {% if page.paperurl %}
             <a href="{{ page.paperurl }}" target="_blank" style="text-decoration: none; border: 2px solid; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-              <i class="fas fa-file-pdf"></i> Download Paper
+              <i class="fas fa-file-alt"></i> Paper
             </a>
           {% endif %}
           {% if page.slidesurl %}
             <a href="{{ page.slidesurl }}" target="_blank" style="text-decoration: none; border: 2px solid; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-              <i class="fas fa-file-powerpoint"></i> Download Slides
+              <i class="fas fa-file-powerpoint"></i> Slides
             </a>
           {% endif %}
           {% if page.posterurl %}
             <a href="{{ page.posterurl }}" target="_blank" style="text-decoration: none; border: 2px solid; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-              <i class="fas fa-image"></i> Download Poster
+              <i class="fas fa-image"></i> Poster
             </a>
           {% endif %}
           {% if page.bibtexurl %}
-            <a href="/bibtex-viewer/?file={{ page.bibtexurl }}" target="_blank" style="text-decoration: none; border: 2px solid; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-              <i class="fas fa-file-code"></i> Download BibTeX
-            </a>
+            <button onclick="toggleBibtex(this, '{{ page.bibtexurl }}')" style="text-decoration: none; border: 2px solid; padding: 8px 16px; border-radius: 6px; font-weight: bold; font-size: 0.9em; box-shadow: 0 2px 4px rgba(0,0,0,0.1); background: transparent; cursor: pointer; color: inherit;">
+              <i class="fas fa-file-code"></i> BibTeX
+            </button>
           {% endif %}
         </div>
+        {% if page.bibtexurl %}
+          <div class="bibtex-container" style="display: none; margin-top: 1em; position: relative; border: 1px solid currentColor; border-radius: 8px; padding: 1em; opacity: 0.8;">
+            <button onclick="copyBibtexText(this)" style="position: absolute; top: 10px; right: 10px; border: 1px solid currentColor; background: transparent; color: inherit; padding: 4px 8px; border-radius: 4px; cursor: pointer; font-size: 0.8em; font-weight: bold;">
+              <i class="fas fa-copy"></i> Copy
+            </button>
+            <pre class="bibtex-content" style="margin: 0; padding-top: 1.5em; overflow-x: auto; white-space: pre-wrap; font-family: monospace; font-size: 0.85em; background: transparent; border: none;"></pre>
+          </div>
+        {% endif %}
+        
+        <script>
+          if (typeof toggleBibtex !== 'function') {
+            window.toggleBibtex = function(btn, url) {
+              var container = btn.parentElement.nextElementSibling;
+              while (container && !container.classList.contains('bibtex-container')) {
+                container = container.nextElementSibling;
+              }
+              if (!container) return;
+              
+              if (container.style.display === 'none') {
+                container.style.display = 'block';
+                var pre = container.querySelector('.bibtex-content');
+                if (!pre.dataset.loaded) {
+                  pre.innerText = "Loading...";
+                  fetch(url).then(r => r.text()).then(text => {
+                    pre.innerText = text;
+                    pre.dataset.loaded = "true";
+                  }).catch(e => { pre.innerText = "Error loading BibTeX: " + e; });
+                }
+              } else {
+                container.style.display = 'none';
+              }
+            };
+            window.copyBibtexText = function(btn) {
+              var text = btn.nextElementSibling.innerText;
+              navigator.clipboard.writeText(text).then(() => {
+                var orig = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-check"></i> Copied';
+                setTimeout(() => { btn.innerHTML = orig; }, 2000);
+              });
+            };
+          }
+        </script>
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
