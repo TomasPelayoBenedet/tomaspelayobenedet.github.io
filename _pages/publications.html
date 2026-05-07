@@ -12,5 +12,25 @@ author_profile: true
 {% include base_path %}
 
 {% for post in site.publications reversed %}
-  {% include archive-single.html %}
+  {% if post.category != 'posters' %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
+
+{% assign has_posters = false %}
+{% for post in site.publications reversed %}
+  {% if post.category == 'posters' %}
+    {% assign has_posters = true %}
+    {% break %}
+  {% endif %}
+{% endfor %}
+
+{% if has_posters %}
+  <br>
+  <h2>Posters</h2><hr />
+  {% for post in site.publications reversed %}
+    {% if post.category == 'posters' %}
+      {% include archive-single.html %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
