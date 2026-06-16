@@ -18,8 +18,9 @@ Work experience
 University of Zaragoza, Zaragoza, Spain
 * May 2024-Present: Ph.D. Researcher
   * Research on Algorithmically Generated Domains (AGD) detection using LLMs.
-  * Designed and benchmarked deep learning architectures for AGD detection.
-  * Research on the application of assisted LLMs to Reverse Engineering.
+  * Design and benchmark deep learning architectures for AGD detection.
+  * Review and benchmark adversarial AGD generation and defense techniques.
+  * Research on the application of agents to Reverse Engineering.
 * Oct 2025-May 2026: Lecturer
   * Teaching practical sessions for undergraduate engineering courses.
 
@@ -34,10 +35,10 @@ Ruhr University Bochum, Bochum, Germany
 
 Teltronic, Zaragoza, Spain
 * May 2023-May 2024: Cybersecurity Engineer
-  * Led cybersecurity strategy and compliance for LTE (4G) product line.
-  * Implemented risk mitigation policies aligned with industry standards.
+  * Lead cybersecurity strategy and compliance for LTE (4G) product line.
+  * Implement risk mitigation policies aligned with industry standards.
 * October 2022-April 2023: Cybersecurity Intern
-  * Conducted vulnerability assessments and risk analysis for telecommunications systems.
+  * Conduct vulnerability assessments and risk analysis for telecommunications systems.
 
 Education
 ======
