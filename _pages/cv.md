@@ -29,7 +29,7 @@ JnT Studios, Spain
   * Contribute developing core software features and infrastructure.
 
 Ruhr University Bochum, Bochum, Germany
-* April 2025-Jan 2026: Visiting Researcher (Remote collaboration since Aug 2025)
+* April 2025-July 2025: Visiting Researcher
   * Research on novel applications of LLMs for binary decompilation via intermediate representations.
 
 Teltronic, Zaragoza, Spain
