@@ -22,7 +22,7 @@ University of Zaragoza, Zaragoza, Spain
   * Review and benchmark adversarial AGD generation and defense techniques.
   * Research on the application of agents to Reverse Engineering.
 * Oct 2025-May 2026: Lecturer
-  * Teaching practical sessions for undergraduate engineering courses.
+  * Teach practical sessions for undergraduate engineering courses.
 
 JnT Studios, Spain
 * Dec 2025-Present: Co-Founder
